@@ -6,7 +6,6 @@ import org.hibernate.cfg.Configuration;
 public class HibernateUtil {
     private static final SessionFactory factory = initSessionFactory();
 
-    // To jest ten prywatny konstruktor, którego wymaga test:
     private HibernateUtil() {
     }
 
