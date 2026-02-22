@@ -14,8 +14,8 @@ public class HibernateUtil {
             throw new RuntimeException("Nie udało sie stworzyć fabryki sesji!", e);
         }
     }
-        public static SessionFactory getSessionFactory() {
-            return factory;
 
+    public static SessionFactory getSessionFactory() {
+        return factory;
     }
 }
